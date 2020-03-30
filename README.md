@@ -1,2 +1,15 @@
-# project-euler
-This Repo is setup for solving all the problems in multiple programing languages
+# Project Euler
+
+This Project is setup for solving all the Euler's problems in multiple programing languages including
+- JavaScript
+- Python
+- Java
+- Swift
+- GoLang
+- Php
+- C#
+- C
+- C++
+- Scala
+- Kotlin
+- Ruby
