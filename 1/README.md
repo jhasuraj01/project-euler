@@ -10,6 +10,13 @@ Find the sum of all the multiples of 3 or 5 below the provided input number.
 
 ### JavaScript
 ```javascript
+const given_input = 19564;
+
+/**
+ * 
+ * @param {Number} given_input the limiting integer upto which sum of the multiples of 3 or 5 is to be calculated
+ * @returns {Number} sum of the multiples of 3 or 5 upto the given input
+ */
 const sumOfMultiplesOf3Or5 = (given_input) => {
 
   const t3 = Math.floor(given_input/3);
@@ -24,10 +31,15 @@ const sumOfMultiplesOf3Or5 = (given_input) => {
   
   return result;
 }
+
+console.log(sumOfMultiplesOf3Or5(given_input));
+}
 ```
 ### Python
 ```python
 import math
+given_input = int(8456)
+
 
 def sumOfMultiplesOf3Or5(given_input):
 
@@ -42,6 +54,9 @@ def sumOfMultiplesOf3Or5(given_input):
     result = int(S3 + S5 - S15)
 
     return result
+
+
+print(sumOfMultiplesOf3Or5(given_input))
 ```
 ### C++
 ### C#
