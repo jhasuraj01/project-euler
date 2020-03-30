@@ -1,4 +1,4 @@
-# Project Euler
+# Solving Eulers Problems
 
 This Project is setup for solving all the Euler's problems in multiple programing languages including
 - JavaScript
