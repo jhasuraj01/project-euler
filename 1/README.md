@@ -4,7 +4,43 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below the provided input number.
 
+### [Click here to Download Solution PDF](https://jhasuraj.com/project-euler/1/project-euler-problem1.pdf)
+
 ## Algorithm(s)
+
+All the common Multiples of 3 and 5 will also be the multiple of 15.
+Example:- 
+<div>
+<img src="./src/example.png" width="320px" max-width="100%"/>	
+</div>
+
+Hence if we add all the multiples of 3 and 5 till the given number, multiples of 15 (i.e. the intersection) will be added twice.
+
+Let <i><b>S<sub>3</sub></b></i>, <i><b>S<sub>5</sub></b></i> and <i><b>S<sub>15</sub></b></i> be the sum of all the multiples of 3, 5 and 15 up to the given number (i.e. the input given by user) respectively.
+
+∴ By applying the principle of inclusion and exclusion we can directly calculate output:-
+
+<img src="./src/short-output.png" width="250px" max-width="100%"/>	
+
+Let <i><b>t<sub>3</sub></b></i>, <i><b>t<sub>5</sub></b></i> and <i><b>t<sub>15</sub></b></i> be the number of multiples of 3, 5 and 15 below the given <i>input (i)</i> respectively.
+
+<img src="./src/t3-formula.png" width="100px" max-width="100%"/>
+
+<img src="./src/t5-formula.png" width="100px" max-width="100%"/>
+
+<img src="./src/t15-formula.png" width="100px" max-width="100%"/>
+
+where ⌊∙⌋ represents Greatest Integer Function.
+
+<img src="./src/S3-derive1.png" width="300px" max-width="100%"/>
+
+<img src="./src/S3-derive2.png" width="380px" max-width="100%"/>
+
+Similarly,
+
+<img src="./src/S5-derive.png" width="400px" max-width="100%"/>
+
+<img src="./src/S15-derive.png" width="420px" max-width="100%"/>
 
 ## Solution(s)
 
