@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Problem 1: Sum of Multiples of 3 or 5 | project-euler</title>
 <meta name="generator" content="Jekyll v3.8.5">
@@ -19,14 +17,9 @@
 <script type="application/ld+json">
 {"@type":"WebPage","headline":"Problem 1: Sum of Multiples of 3 or 5","url":"https://jhasuraj.com/project-euler/1/","description":"This Project is setup for solving all the Euler’s problems in multiple programing languages","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-
-    <style class="anchorjs"></style><link rel="stylesheet" href="/project-euler/assets/css/style.css?v=5970f52297040ce8d549428363ff8e0fa63890ec">
-  
-    <style>
-        .code-container {overflow: auto;background-color: #1e1e1e; padding: 10px; border: 6px solid #1e1e1e;}
-    </style>
+<style class="anchorjs"></style><link rel="stylesheet" href="/project-euler/assets/css/style.css?v=5970f52297040ce8d549428363ff8e0fa63890ec">
+<style>.code-container{overflow: auto;background-color: #1e1e1e; padding: 10px; border: 6px solid #1e1e1e;}</style>
 </head>
-
 <body>
 <main class="container-lg px-3 my-5 markdown-body">
 <h1><a href="https://jhasuraj.com/project-euler/">Project Euler - Home</a></h1>
@@ -40,50 +33,32 @@ multiples is 23.</p>
 href="https://jhasuraj.com/project-euler/1/project-euler-problem1.pdf">Click here to Download Solution
 PDF</a><a class="anchorjs-link " href="#click-here-to-download-solution-pdf" aria-label="Anchor"
 data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
-
 <h2 id="algorithms">Algorithm(s)<a class="anchorjs-link " href="#algorithms" aria-label="Anchor"
 data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
-
 <p>All the common Multiples of 3 and 5 will also be the multiple of 15.
 Example:-</p>
 <div>
 <img src="./src/example.png" max-width="100%" width="320px">
 </div>
-
 <p>Hence if we add all the multiples of 3 and 5 till the given number, multiples of 15 (i.e. the intersection) will
 be added twice.</p>
-
 <p>Let <i><b>S<sub>3</sub></b></i>, <i><b>S<sub>5</sub></b></i> and <i><b>S<sub>15</sub></b></i> be the sum of all
 the multiples of 3, 5 and 15 up to the given number (i.e. the input given by user) respectively.</p>
-
 <p>∴ By applying the principle of inclusion and exclusion we can directly calculate output:-</p>
-
 <p><img src="./src/short-output.png" max-width="100%" width="250px"></p>
-
 <p>Let <i><b>t<sub>3</sub></b></i>, <i><b>t<sub>5</sub></b></i> and <i><b>t<sub>15</sub></b></i> be the number of
 multiples of 3, 5 and 15 below the given <i>input (i)</i> respectively.</p>
-
 <p><img src="./src/t3-formula.png" max-width="100%" width="100px"></p>
-
 <p><img src="./src/t5-formula.png" max-width="100%" width="100px"></p>
-
 <p><img src="./src/t15-formula.png" max-width="100%" width="100px"></p>
-
 <p>where ⌊∙⌋ represents Greatest Integer Function.</p>
-
 <p><img src="./src/S3-derive1.png" max-width="100%" width="300px"></p>
-
 <p><img src="./src/S3-derive2.png" max-width="100%" width="380px"></p>
-
 <p>Similarly,</p>
-
 <p><img src="./src/S5-derive.png" max-width="100%" width="400px"></p>
-
 <p><img src="./src/S15-derive.png" max-width="100%" width="420px"></p>
-
 <h2 id="solutions">Solution(s)<a class="anchorjs-link " href="#solutions" aria-label="Anchor" data-anchorjs-icon=""
 style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
-
 <h3 id="javascript">JavaScript<a class="anchorjs-link " href="#javascript" aria-label="Anchor"
 data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
 <div class="code-container">
@@ -113,5 +88,4 @@ style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script>anchors.add();</script>
 </body>
-
 </html>
