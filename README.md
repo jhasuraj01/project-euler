@@ -16,6 +16,13 @@ This Project is setup for solving all the Euler's problems in multiple programin
 
 ## Latest Solved Problem
 
+### Problem 3: Largest prime factor
+
+**Question:-**
+The prime factors of 13195 are 5, 7, 13 and 29.
+What is the largest prime factor of the number 600851475143?
+
+**[View Solution for Problem 3 ](./3/)**
 
 ### Problem 2: Sum of Even Fibonacci Numbers
 
