@@ -16,6 +16,22 @@ This Project is setup for solving all the Euler's problems in multiple programin
 
 ## Latest Solved Problem
 
+### Problem 6: Sum square difference
+
+**Question:-**
+The sum of the squares of the first ten natural numbers is,
+12 + 22 + ... + 102 = 385
+
+The square of the sum of the first ten natural numbers is,
+(1 + 2 + ... + 10)<sup>2</sup> = 552 = 3025
+
+Hence the difference between the sum of the squares of the first ten natural numbers
+and the square of the sum is 3025 − 385 = 2640.
+
+Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
+
+**[View Solution for Problem 6 ](./6/)**
+
 ### Problem 5: Smallest multiple
 
 **Question:-**
